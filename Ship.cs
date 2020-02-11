@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // using System;
 // using System.Collections.Generic;
 
@@ -40,3 +41,17 @@
 //     // }
 //     }
 // }
+=======
+namespace battle_ship_in_the_oo_way_wildandfree
+{
+    public class Ship
+    {
+        public int Length;
+        public string Orientation;
+        public bool StillSwiming = true;
+        public int [] position;
+
+
+}
+}
+>>>>>>> 685cd6c30779a599a6a5cae57441bad38405c98c

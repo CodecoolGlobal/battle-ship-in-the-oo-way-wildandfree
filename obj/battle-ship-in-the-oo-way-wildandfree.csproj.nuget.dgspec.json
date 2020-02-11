@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/battle-ship-in-the-oo-way-wildandfree.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/chash/.nuget/NuGet/NuGet.Config"
+=======
+    "/home/mati/Pulpit/programowanie/codecool/Module_2/Sprint2/csharp-eisenhower-MateuszPiskor/battleships/battle-ship-in-the-oo-way-wildandfree/battle-ship-in-the-oo-way-wildandfree.csproj": {}
+  },
+  "projects": {
+    "/home/mati/Pulpit/programowanie/codecool/Module_2/Sprint2/csharp-eisenhower-MateuszPiskor/battleships/battle-ship-in-the-oo-way-wildandfree/battle-ship-in-the-oo-way-wildandfree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mati/Pulpit/programowanie/codecool/Module_2/Sprint2/csharp-eisenhower-MateuszPiskor/battleships/battle-ship-in-the-oo-way-wildandfree/battle-ship-in-the-oo-way-wildandfree.csproj",
+        "projectName": "battle-ship-in-the-oo-way-wildandfree",
+        "projectPath": "/home/mati/Pulpit/programowanie/codecool/Module_2/Sprint2/csharp-eisenhower-MateuszPiskor/battleships/battle-ship-in-the-oo-way-wildandfree/battle-ship-in-the-oo-way-wildandfree.csproj",
+        "packagesPath": "/home/mati/.nuget/packages/",
+        "outputPath": "/home/mati/Pulpit/programowanie/codecool/Module_2/Sprint2/csharp-eisenhower-MateuszPiskor/battleships/battle-ship-in-the-oo-way-wildandfree/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mati/.nuget/NuGet/NuGet.Config"
+>>>>>>> 685cd6c30779a599a6a5cae57441bad38405c98c
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
