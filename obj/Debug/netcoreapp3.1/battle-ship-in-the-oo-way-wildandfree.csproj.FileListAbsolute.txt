@@ -1,0 +1,11 @@
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/bin/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/bin/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.deps.json
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/bin/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.runtimeconfig.json
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/bin/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.runtimeconfig.dev.json
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/bin/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.dll
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/bin/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.pdb
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/obj/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.csprojAssemblyReference.cache
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/obj/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.AssemblyInfoInputs.cache
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/obj/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.AssemblyInfo.cs
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/obj/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.dll
+/home/chash/cc/csharp/projects/battle-ship-in-the-oo-way-wildandfree/obj/Debug/netcoreapp3.1/battle-ship-in-the-oo-way-wildandfree.pdb
