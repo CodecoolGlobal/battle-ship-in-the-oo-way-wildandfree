@@ -6,20 +6,15 @@ namespace battle_ship_in_the_oo_way_wildandfree
     {
         int PositionX, PositionY; // pobierane z Ocean.cs
         bool IsRestricted; // można postawić statek
-        bool isShoot; // statek trafiony 
+        /* -- to do Ship.cs
+        bool IsShoot; // statek trafiony 
+        --- */
         string LetterToPrint; // znaki do ramki i opisu mapy
-        // bool isFrame;
         public Cell(int positionX, int positionY, bool isRestricted) // Cell to draw elements of the map 
         {
             this.PositionX = positionX;
             this.PositionY = positionY;
             this.IsRestricted = isRestricted;
-        }
-        public Cell(int positionX, int positionY, bool restriction, bool isshoot) // Cell to be ship
-        {
-            this.PositionX = positionX;
-            this.PositionY = positionY;
-            this.isShoot = isshoot;
         }
         public Cell(int positionX, int positionY, string letterToPrint = "") // Cell to draw frame and 
         {                                                                       //letters
@@ -28,27 +23,36 @@ namespace battle_ship_in_the_oo_way_wildandfree
             this.LetterToPrint = letterToPrint;
             this.IsRestricted = true;
         }
-        public Cell() { }
+        // public Cell() { }
         public void setRestriction() // zmiana warunku postawienia znaku
         {
             IsRestricted = true;
         }
-        public string drawFrame() // rozbudować w zależności co się będzie działo
+               public bool ifRestricted() // zwraca status pola - jeśli zajęte nie mozna postawić statku
         {
-            return LetterToPrint;
+            return IsRestricted;
         }
+
+        /* --- do Ship.cs
+        public void setIsShoot() // zmiana kiedy trafiony
+        {
+            IsShoot = true;
+        }
+        -----*/
 
         public override string ToString()
         {
-            if (isShoot == true)
+            /* --- to także do Ship.cs?
+            if (IsShoot == true)
             {
                 return String.Format("[X]");  // trafiony
             }
-            else if (isShoot == false)
+            else if (IsShoot == false)
             {
                 return String.Format("[ ]"); // ustawiony
             }
-            else if (IsRestricted == true && LetterToPrint != "")
+            ---- */ 
+            if (IsRestricted == true && LetterToPrint != "")
             {
                 return String.Format(LetterToPrint); // ramki i opisy
             }

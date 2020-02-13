@@ -20,6 +20,7 @@ namespace battle_ship_in_the_oo_way_wildandfree
                     if (i == 0 || i == grid.GetLength(0))
                     {
                         var letter = getStrings(horizontal_strings, i);
+                        // Cell newCell = new Cell(i,j,lteter)
                         grid[i, j] = (new Cell(i, j, letter)); // to jest frame - litery!
                     }
                     else if (j == 0 || j == grid.GetLength(1))
