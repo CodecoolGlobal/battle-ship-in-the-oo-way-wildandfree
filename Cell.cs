@@ -26,9 +26,9 @@ namespace battle_ship_in_the_oo_way_wildandfree
         // public Cell() { }
         public void setRestriction() // zmiana warunku postawienia znaku
         {
-            IsRestricted = true;
+            this.IsRestricted = true;
         }
-               public bool ifRestricted() // zwraca status pola - jeśli zajęte nie mozna postawić statku
+        public bool ifRestricted() // zwraca status pola - jeśli zajęte nie mozna postawić statku
         {
             return IsRestricted;
         }
@@ -51,7 +51,7 @@ namespace battle_ship_in_the_oo_way_wildandfree
             {
                 return String.Format("[ ]"); // ustawiony
             }
-            ---- */ 
+            ---- */
             if (IsRestricted == true && LetterToPrint != "")
             {
                 return String.Format(LetterToPrint); // ramki i opisy
